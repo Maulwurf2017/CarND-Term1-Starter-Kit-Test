@@ -1,12 +1,5 @@
-# CarND-Term1-Starter-Kit-Test#Finding Lane Lines on the Road Udacity - Self-Driving Car NanoDegree
+# [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/sdc-banner-medium-1170_660.png)](http://www.udacity.com/drive)
+# CarND-Term1-Starter-Kit-Test
 
-Combined Image
-
-Overview
-
-In this project, I use the sobel filter and the colar mask to detect the lane in a video and write out the video with lane highlighted. The reason why the color mask ist so important in this case lies on the light condition. A color mask in HLS color space react robust to shadow.
-
-The right lane is a little jumpy, i'm still working on that point. In the future I want to try the feature detector for lane detection.
-
-
-
+Files to test the [term 1 starter kit](https://github.com/udacity/CarND-Term1-Starter-Kit) install. 
+Run all cells in the jupyter notebook. The notebook should execute all cells with no errors.
