@@ -25,14 +25,23 @@ The goals / steps of this project are the following:
 My pipeline consisted of 10 steps. 
 
 step 1: define the global variable to hold the value of the x1,x2,y1,y2 of the left and right side lane from the previous frame. It help me to draw the lane even if the lane can't be detected.
+
 step 2: define the function to transform the region of interst to the bird view image
+
 step 3: apply color mask to find the yellow and white lane in the image
+
 step 4: apply canny detector to the l and s channel of the image. We could find out that the s channel is resistant to the noise of shadows (like shadow of trees in the challenge video).
+
 step 5: apply the canny edge detector to the gray scale image.
+
 step 6: combine the output images from above (I ignored the s channel canny detected image)
+
 step 7: Do the reverse perspective transformation to
+
 step 8: do the hough space transformation to get the lane on the image.
+
 step 9: draw the line back on a blank image.
+
 step 10: add the image with lines on it and the original image to get the final image
 
 
