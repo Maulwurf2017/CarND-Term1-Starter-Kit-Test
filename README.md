@@ -1,4 +1,4 @@
-# [!final_image.png)]
+# /final_image.png
 # CarND-Term1-Starter-Kit-Test
 
 Files to test the [term 1 starter kit](https://github.com/udacity/CarND-Term1-Starter-Kit) install. 
