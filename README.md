@@ -4,6 +4,8 @@
 Files to test the [term 1 starter kit](https://github.com/udacity/CarND-Term1-Starter-Kit) install. 
 Run all cells in the jupyter notebook. The notebook should execute all cells with no errors.
 
-There are 3 folders of video. You could find a python jupyter notebook file named p1 to process the image and the video in each folder. You could also find the video and output video with the name raw-viedeoname.mp4 in each folder. The write_image.ipyth is used to write every frame from the video. 
+There are 3  output videos. All the videos were processed with p1 file. You need to redefine the region of interest to process different videos. 
+
+The write_image file is used to write every frame from the video. 
 
 There's also a write up file explaining the pipeline.
